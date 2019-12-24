@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>О нас</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1">
+    <script src="menu.js"></script>
+
+</head>
+
+<body>
+<header>
+    <div class="logo"><a href="main.html"><img src="image/collar.svg"></a></div>
+    <button class="menuhidden"></button>
+    <nav class="menu">
+        <a href="about.html">о нас</a>
+        <a href="merchsave.html">мерч</a>
+        <a href="contact.html">контакты</a>
+    </nav>
+</header>
+<a href="main.html"> <img class="navigas"  src="image/strelka.svg" alt="strelk" > </a>
+
+
+<main>
+    <h1>О НАС</h1>
+    <p>Серия офлайн-мероприятий от Red Collar — короткие лекции и живые обсуждения прямо у нас в офисе.
+        Минимум гостей, неформальная обстановка. Ждём дома!</p>
+    <h2>Как к нам попасть?</h2>
+    <p>Всё просто — будь в числе первых, кто запишется на встречу после анонса даты. Количество мест объявляем вместе с
+        анонсом.
+    </p>
+    <h3>Где с нами общаться?</h3>
+    <p class=otstup>
+        Чат в телеграме, в котором общаемся, отвечаем на вопросы, публикуем анонсы мероприятий в первую очередь
+        <a href="http://ttttt.me/rdclr_home" target="_blank">ttttt.me/rdclr_home</a></p>
+    <blockquote>Разберем все по полочкам</blockquote>
+    <h2>Наша команда</h2>
+    <p>Обладаем обширными компетенциями и экспертными навыками в таких сферах как: </p>
+    <ol>
+        <li>Менеджмент</li>
+        <li>Дизайн</li>
+        <li>Frontend</li>
+        <li>Backend</li>
+    </ol>
+    <p>
+        Узнаем что актуально прямо сейчас, какие направления развиваются, как самому начать изучать сферу,
+        наработать нужные навыки и войти в профессию.
+    </p>
+    <h2>Фотоотчет</h2>
+    <div class="arrows">
+        <span class="arrow next" id="next"><img src="image/rightarrow.svg"></span>
+        <span class="arrow prew" id="prew"><img src="image/leftarrow.svg"></span>
+    </div>
+    <ul id="slider">
+        <li class="slide active">
+            <div class="fotootchet"><img src="image/photootchet.svg"></div>
+        </li>
+        <li class="slide">
+            <div class="fotootchet"><img src="image/golub.jpeg"></div>
+        </li>
+    </ul>
+    </div>
+    <h2>Последние спикеры</h2>
+    <p>Имено они читают лекции на RDCLR.HOME! А если не читают,
+        то находятся где-то в офисе и им можно задать любые вопросы.</p>
+    <ul>
+
+        <li> Иван Марков</li>
+        <li> Иван Вялов</li>
+        <li> Надежда Кочеткова</li>
+        <li> Артём Фёдоров</li>
+        <li> Андрей Глевчук</li>
+    </ul>
+    <h2>Мы находимся</h2>
+    <div class="mestopolozhenie">
+        <img class="im" src="image/mesto.svg" alt="Вид офиса"/>
+    </div>
+    <p><i>ул. Текстильщиков, 5б, Воронеж</i></p>
+
+    <h2 class="forma">Записаться на RDCLR.HOME</h2>
+
+    <!--<div class='popup'>
+        <div class='overlay'>Ошибка! Проверьте корректность вводимых данных.</div>
+        <div class='popup-inner'>
+            <div class='message-text'>Поздравляем! Вы записались на RDCLR.HOMR</div>
+        </div>
+    </div> -->
+    <form action="" id="frm">
+
+        <select name="choise">
+            <option value="stud">Студент</option>
+            <option value="nach">Начинающий дизайнер</option>
+            <option value="prac">Практикующий дизайнер</option>
+            <option value="prof">Хочу освоить другую профессию</option>
+        </select>
+        <input type="email" placeholder="E-mail" name="mail" required>
+        <input type="tel" placeholder="Телефон" name="telephone" required>
+        <textarea placeholder="Комментарий" name="komment" required></textarea>
+        <div class="checkbox">
+            <label class='checkbox' for="cheсk">
+                <input type="checkbox" required id="cheсk">
+                <span></span>
+                Даю согласие на обработку своих <a>персональных данных</a>
+            </label>
+        </div>
+        <input name="submit" class="btn" type="submit" value="ОТПРАВИТЬ"/>
+    </form>
+
+</main>
+<a href="#"><img class="vverh" src="image/vozvratvverh.svg"></a>
+
+<footer>
+    <nav class="social">
+        <a href="https://vk.com/redcollar">VK</a>
+        <a href="https://www.facebook.com/redcollars">FB</a>
+        <a href="https://www.instagram.com/redcollar.digital/">IG</a>
+    </nav>
+    <nav class="menu">
+        <a href="about.html">о нас</a>
+        <a href="merchsave.html">мерч</a>
+        <a href="contact.html">контакты</a>
+    </nav>
+</footer>
+
+</body>
+
+</html>
+
